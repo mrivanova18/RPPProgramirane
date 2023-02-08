@@ -18,9 +18,13 @@ namespace masivi2
             var result = words.Distinct();
             
         }
-        public static void Replace(string[] words,string word)
+        public static void Replace(string[] words)
         {
             
+        }
+        public static void Print(string[] words)
+        {
+            Console.WriteLine(string.Join(" ",words.Where(x => x.StartsWith('t'))));
         }
     }
 }
