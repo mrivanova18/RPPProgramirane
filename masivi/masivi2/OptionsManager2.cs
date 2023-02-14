@@ -8,23 +8,25 @@ namespace masivi2
 {
     public static class OptionsManager2
     {
-        public static void ReverseArr(string[] words)
+        public static string[] ReverseArr(string[] words)
         {
             var result = words.Reverse().ToArray();
-            Console.WriteLine(string.Join(", ", result));
+            return result;
+            //Console.WriteLine(string.Join(", ", result));
         }
-        public static void Distinct(string[] words)
+        public static string[] Distinct(string[] words)
         {
-            var result = words.Distinct();
+            var result = words.Distinct().ToArray();
+            return result;
             
         }
-        public static void Replace(string[] words)
+        public static void Replace(string[] words, int index, string newWord)
         {
-            
+            words[index] = newWord;
         }
-        public static void Print(string[] words)
+        public static void Print(string[] words, string symbol)
         {
-            Console.WriteLine(string.Join(" ",words.Where(x => x.StartsWith('t'))));
+            Console.WriteLine(string.Join(" ",words.Where(x => x.StartsWith(symbol))));
         }
     }
 }
