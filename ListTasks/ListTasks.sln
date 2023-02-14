@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveNum", "ListTasks\Remo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NegativeNum", "NegativeNum\NegativeNum.csproj", "{AADBD97A-2D52-4E30-8DB0-835C2B311747}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListMerge", "ListMerge\ListMerge.csproj", "{BB3E305C-9286-42AB-9DB0-1D5CFBDAA065}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AADBD97A-2D52-4E30-8DB0-835C2B311747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AADBD97A-2D52-4E30-8DB0-835C2B311747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AADBD97A-2D52-4E30-8DB0-835C2B311747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3E305C-9286-42AB-9DB0-1D5CFBDAA065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3E305C-9286-42AB-9DB0-1D5CFBDAA065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3E305C-9286-42AB-9DB0-1D5CFBDAA065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3E305C-9286-42AB-9DB0-1D5CFBDAA065}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
