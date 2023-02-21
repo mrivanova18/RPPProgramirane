@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NegativeNum", "NegativeNum\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListMerge", "ListMerge\ListMerge.csproj", "{BB3E305C-9286-42AB-9DB0-1D5CFBDAA065}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareNums", "SquareNums\SquareNums.csproj", "{3FAF6FB9-7BD3-4DCF-AF14-1F3417740D88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquareNums", "SquareNums\SquareNums.csproj", "{3FAF6FB9-7BD3-4DCF-AF14-1F3417740D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListManipulation", "ListManipulation\ListManipulation.csproj", "{D0D18FBB-905C-4959-9AA8-F9D6147A0A48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3FAF6FB9-7BD3-4DCF-AF14-1F3417740D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FAF6FB9-7BD3-4DCF-AF14-1F3417740D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FAF6FB9-7BD3-4DCF-AF14-1F3417740D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D18FBB-905C-4959-9AA8-F9D6147A0A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D18FBB-905C-4959-9AA8-F9D6147A0A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D18FBB-905C-4959-9AA8-F9D6147A0A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D18FBB-905C-4959-9AA8-F9D6147A0A48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
