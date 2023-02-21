@@ -22,6 +22,7 @@ namespace ListManipulation
                     case "add":
                         break;
                     case "addMany":
+                        Console.WriteLine(command);
                         break;
                     case "contains":
                         break;
