@@ -38,8 +38,7 @@ namespace ListManipulation
                         break;
                 }
             }
-            Console.WriteLine(string.Join(" ",nums));
-            Console.WriteLine();
+            Console.WriteLine(string.Join(" ",nums));            
         }
     }
 }
