@@ -24,15 +24,35 @@ namespace ListManipulation
                         nums.Insert(index, element);
                         break;
                     case "addMany":
-                        Console.WriteLine(command);
+                        index = int.Parse(input[1]);
+                        for (int i = input.Length - 1; i > 1; i--)
+                        {
+                            nums.Insert(index, int.Parse(input[i]));
+                        }
                         break;
                     case "contains":
+                        element = int.Parse(input[1]);
                         break;
                     case "remove":
+                        index = int.Parse(input[1]);
+                        nums.RemoveAt(index);
                         break;
                     case "shift":
+                        var pos = int.Parse(input[1]);
+                        for (int i = 0; i < pos; i++)
+                        {
+                            int elem = nums[0];
+                            nums.RemoveAt(0);
+                            nums.Add(elem);
+                        }
                         break;
                     case "sumPairs":
+                        List<int> result = new List<int>();
+                        for (int i = 0; i < nums.Count; i=i+2)
+                        {
+                            result.Add(nums[i] + nums[i + 1]);
+                        }
+                        nums = result;
                         break;    
                         
                     default:
