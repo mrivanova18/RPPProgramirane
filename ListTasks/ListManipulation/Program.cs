@@ -23,12 +23,23 @@ namespace ListManipulation
                         var element = int.Parse(input[2]);
                         nums.Insert(index, element);
                         break;
+
+                    case "addMany": index = int.Parse(input[1]);
+                        for (int i = input.Length; i > -1; i--)
+                        {
+                            element = int.Parse(input[2]);
+                            nums.Insert(index, element);
+                        }
+
                     case "addMany":
+<<<<<<< HEAD
                         index = int.Parse(input[1]);
                         for (int i = input.Length - 1; i > 1; i--)
                         {
                             nums.Insert(index, int.Parse(input[i]));
                         }
+=======
+>>>>>>> 890fe97f6e907bedade3ddbbac64fde8cba5bf6e
                         break;
                     case "contains":
                         element = int.Parse(input[1]);
